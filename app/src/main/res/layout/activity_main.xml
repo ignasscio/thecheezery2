@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_gray"
+    android:orientation="vertical">
+
+    <ImageView android:id="@+id/iv_thecheezery"
+        android:src="@drawable/thecheezery"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:scaleType="fitXY"
+        />
+
+    <TextView android:id="@+id/tv_welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/dusty_white"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        />
+
+    <TextView android:id="@+id/tv_welcomeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/dusty_white"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome_description"
+        android:textAlignment="center"
+        />
+
+    <Button android:id="@+id/btn_welcome"
+        android:layout_width="219dp"
+        android:layout_height="40dp"
+        android:text="@string/button_start"
+        android:background="@drawable/round_button"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
