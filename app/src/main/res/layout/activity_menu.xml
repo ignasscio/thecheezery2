@@ -56,7 +56,7 @@
             android:paddingVertical="20dp"
             />
 
-        <Button android:id="@+id/btn_buttonSweets"
+        <Button android:id="@+id/btn_sweets"
             android:text="@string/sweets"
             android:textColor="@color/dusty_white"
             android:background="@drawable/first_gradient"
@@ -68,7 +68,7 @@
             android:paddingVertical="20dp"
             />
 
-        <Button android:id="@+id/btn_buttonSalties"
+        <Button android:id="@+id/btn_salties"
             android:text="@string/salties"
             android:textColor="@color/dusty_white"
             android:background="@drawable/first_gradient"
